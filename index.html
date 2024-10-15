@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <title>CARGO MURAH SOKARNO HATTA</title>
+    <title>BROTHER CARGO | SOKARNO HATTA</title>
+    <link href="assets/images/cargo.jpg" rel="shortcut icon" type="image/x-icon" />
+	<link rel="icon" href="assets/images/icon.png" type="image/x-icon">
     <meta name="description" content="Layanan pengiriman cargo terpercaya dan terjangkau di Bandara Seokarno Hatta. Kami menyediakan solusi pengiriman yang cepat, aman, dan efisien untuk memenuhi kebutuhan Anda.">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -23,7 +24,6 @@
         </div>
     </div>
     <!-- ***** Preloader End ***** -->
-
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
@@ -31,7 +31,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">Cargo Murah</a>
+                        <a href="index.html" class="logo">Cargo</a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -70,7 +70,7 @@
                 <div class="row">
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1>Brother Cargo <em>Seokarno Hatta</em></h1>
+                        <h1>Cargo Murah <em>Seokarno Hatta</em></h1>
                             <p>Kami menyediakan layanan pengiriman <a href="#">cargo terpercaya dengan harga terjangkau dari area Soekarno Hatta.</a> Cepat, aman, dan siap membantu kebutuhan logistik Anda ke berbagai tujuan. Percayakan pengiriman Anda kepada kami untuk layanan yang efisien dan berkualitas.</p> 
                         <a href="#about" class="main-button-slider">KNOW US BETTER</a>
                     </div>
@@ -295,9 +295,9 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Send Message
-                                                Now</button>
-                                        </fieldset>
+                                            <a href ="mailto:cargomurah77@gmail.com" button type="submit" id="form-submit" class="main-button">Send Message
+                                                Now</button></a>
+                                        </fieldset>  
                                     </div>
                                 </div>
                             </form>
@@ -324,7 +324,7 @@
                 <div class="col-lg-12">
                     <div class="sub-footer">
                         <p>Copyright &copy; 2024 Brother Cargo
-                        | Designed By <a rel="nofollow" href="https://cargomurah.my.id">Bukan Heker</a></p>
+                        | Designed By <a rel="nofollow" href="https://cargomurah.my.id">PelajarID</a></p>
                     </div>
                 </div>
             </div>
@@ -349,4 +349,50 @@
     <script src="assets/js/custom.js"></script>
 
 </body>
+<style>
+    .whatsapp-icon {
+        position: fixed;
+        bottom: 20px; /* Jarak dari bawah */
+        left: 20px; /* Jarak dari kiri */
+        z-index: 1000; /* Agar ikon tetap di atas elemen lain */
+        animation: fadeIn 0.5s; /* Efek muncul saat halaman dimuat */
+    }
+
+    .whatsapp-icon img {
+        width: 60px; /* Ukuran ikon */
+        height: 60px; /* Ukuran ikon */
+        transition: transform 0.2s; /* Transisi untuk efek hover */
+    }
+
+    .whatsapp-icon img:hover {
+        animation: shake 0.5s; /* Efek bergetar saat di-hover */
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+</style>
+<!-- Ikon WhatsApp -->
+<div class="whatsapp-icon">
+    <a href="https://wa.me/628988909613?text=Hallo+Brother+Cargo+Murah" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+</div>
+</head>
+<body>
 </html>
